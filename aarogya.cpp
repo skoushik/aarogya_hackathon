@@ -10,8 +10,8 @@ int main()
 {
 	namedWindow("Example", CV_WINDOW_AUTOSIZE);
 	VideoCapture cap(0);
-	vector<string> stringDatabase;
-	string currentData;
+	//	vector<string> stringDatabase;
+	//	string currentData;
 	if(!cap.isOpened()) return -1;
 	Mat frame;
 	Mat grey;
